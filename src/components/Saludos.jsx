@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Saludos = () => {
+const Saludos = (props) => {
     return (
-        <div>
-            <h2>Hola</h2>
-        </div>
+        <section>
+            <h2>Hola {props.enviarProps} </h2>
+        </section>
     );
 };
 

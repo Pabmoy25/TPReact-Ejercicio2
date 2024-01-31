@@ -8,8 +8,8 @@ function App() {
   
   return (
     <>
-    <section className="mainpage">
-   <Saludos></Saludos>   
+    <section className="container mt-5 mainpage text-center">
+   <Saludos enviarProps="My friend!"></Saludos>   
     </section>
 
   <Footer></Footer>
