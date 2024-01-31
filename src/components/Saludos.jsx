@@ -3,7 +3,7 @@ import React from 'react';
 const Saludos = (props) => {
     return (
         <section>
-            <h2>Hola {props.enviarProps} </h2>
+            <h1>Hola {props.enviarProps} </h1>
         </section>
     );
 };
